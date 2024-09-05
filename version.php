@@ -16,7 +16,7 @@
 
 /**
  *  Plugin version and other meta-data are defined here.
- * 
+ *
  * @package   filter_gitquotes
  * @copyright 2024 devrdn rrdninc@gmail.com
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
@@ -24,8 +24,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2024090601;
+$plugin->version   = 2024090602;
 $plugin->requires  = 2020061500;
 $plugin->component = 'filter_gitquotes';
 $plugin->maturity  = MATURITY_STABLE;
-$plugin->release   = '0.0.3';
+$plugin->release   = '0.0.4';

@@ -16,7 +16,7 @@
 
 /**
  * The Filter Gitquotes Main Class.
- * 
+ *
  * @package   filter_gitquotes
  * @copyright 2024 devrdn rrdninc@gmail.com
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
@@ -24,8 +24,9 @@
 
 /**
  * The filter_gitquotes class.
- * 
- * This class extends the moodle_text_filter class and is used to filter the text and replace the custom quotes with the git-style quotes.
+ *
+ * This class extends the moodle_text_filter class and is used to 
+ * filter the text and replace the custom quotes with the git-style quotes.
  */
 class filter_gitquotes extends moodle_text_filter {
     /**
@@ -59,10 +60,10 @@ class filter_gitquotes extends moodle_text_filter {
         }
 
         // Replace the custom quotes with the git-style quotes.
-        $replacementHtml = '<blockquote class="gitquote $1"><div class="gitquote_name">';
-        $replacementHtml .= '<strong class="quote-type $1">$1</strong></div><span class="quote-content">$2</span></blockquote>';
+        $replacementhtml = '<blockquote class="gitquote $1"><div class="gitquote_name">';
+        $replacementhtml .= '<strong class="quote-type $1">$1</strong></div><span class="quote-content">$2</span></blockquote>';
 
-        $text = preg_replace(self::PATTERN_HTML, $replacementHtml, $text);
+        $text = preg_replace(self::PATTERN_HTML, $replacementhtml, $text);
 
         return $text;
     }

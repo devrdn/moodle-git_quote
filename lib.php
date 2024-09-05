@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * The Filter Gitquotes lib file. 
+ * The Filter Gitquotes lib file.
  *
  * @package   filter_gitquotes
  * @copyright 2024 devrdn rrdninc@gmail.com
