@@ -1,5 +1,3 @@
-Вот пример файла `README.md` для вашего плагина, который расширяет функциональность фильтра Markdown в Moodle:
-
 # Custom Git-Style Quotes Filter for Moodle
 
 This plugin extends the default Markdown filter in Moodle by adding support for git-style quotes, such as `[!NOTE]`, `[!TIP]`, `[!IMPORTANT]`, and `[!WARNING]`. It also applies custom styles to standard blockquotes, providing better visual distinction between different types of quotes.
