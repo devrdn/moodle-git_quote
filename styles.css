@@ -40,7 +40,9 @@
     background-color: #f3e5f5;
 }
 
-.gitquote b, .gitquote i, .gitquote code {
+.gitquote b,
+.gitquote i,
+.gitquote code {
     display: inline;
     margin: 0;
     padding: 0;
