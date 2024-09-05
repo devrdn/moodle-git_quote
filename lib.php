@@ -23,9 +23,7 @@
  */
 
 /**
- * The filter_gitquotes class.
- *
- * This class extends the moodle_text_filter class and is used to filter the text and replace the custom quotes with the git-style quotes.
+ * Function to add the CSS file for the filter.
  */
 function filter_gitquotes_before_standard_html_head() {
     global $PAGE;
