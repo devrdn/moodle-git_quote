@@ -25,7 +25,7 @@
 /**
  * The filter_gitquotes class.
  *
- * This class extends the moodle_text_filter class and is used to 
+ * This class extends the moodle_text_filter class and is used to
  * filter the text and replace the custom quotes with the git-style quotes.
  */
 class filter_gitquotes extends moodle_text_filter {
