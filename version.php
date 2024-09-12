@@ -24,8 +24,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2024090602;
+$plugin->version   = 2024091200;
 $plugin->requires  = 2020061500;
 $plugin->component = 'filter_gitquotes';
 $plugin->maturity  = MATURITY_STABLE;
-$plugin->release   = '0.0.4';
+$plugin->release   = '0.0.5';
